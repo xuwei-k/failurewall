@@ -1,7 +1,7 @@
 package failurewall.circuitbreaker
 
-import akka.actor.Scheduler
-import akka.pattern.{CircuitBreaker, CircuitBreakerOpenException}
+import failurewall.ActorCompat.actor.Scheduler
+import failurewall.ActorCompat.pattern.{CircuitBreaker, CircuitBreakerOpenException}
 import failurewall.util.FailurewallHelper
 import failurewall.{Failurewall, FailurewallException}
 import scala.concurrent.duration.FiniteDuration

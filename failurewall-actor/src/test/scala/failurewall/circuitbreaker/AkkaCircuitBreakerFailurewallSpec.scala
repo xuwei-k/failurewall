@@ -1,6 +1,6 @@
 package failurewall.circuitbreaker
 
-import akka.pattern.CircuitBreaker
+import failurewall.ActorCompat.pattern.CircuitBreaker
 import failurewall.FailurewallException
 import failurewall.test.{AkkaSpec, BodyPromise, TestHelper}
 import java.util.concurrent.atomic.AtomicBoolean

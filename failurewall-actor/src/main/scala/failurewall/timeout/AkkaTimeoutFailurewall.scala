@@ -1,6 +1,6 @@
 package failurewall.timeout
 
-import akka.actor.Scheduler
+import failurewall.ActorCompat.actor.Scheduler
 import failurewall.util.FailurewallHelper
 import failurewall.{Failurewall, FailurewallException}
 import scala.concurrent.duration.FiniteDuration

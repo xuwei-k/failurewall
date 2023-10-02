@@ -1,6 +1,6 @@
 package failurewall.test
 
-import akka.actor.ActorSystem
+import failurewall.ActorCompat.actor.ActorSystem
 import org.scalatest.BeforeAndAfterAll
 
 trait AkkaSpec

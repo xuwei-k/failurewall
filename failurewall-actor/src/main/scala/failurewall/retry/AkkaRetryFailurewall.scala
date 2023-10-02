@@ -1,7 +1,7 @@
 package failurewall.retry
 
-import akka.actor.Scheduler
-import akka.pattern.after
+import failurewall.ActorCompat.actor.Scheduler
+import failurewall.ActorCompat.pattern.after
 import failurewall.Failurewall
 import failurewall.util.FailurewallHelper
 import scala.concurrent.{ExecutionContext, Future}
